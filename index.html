@@ -10,10 +10,21 @@
       }
       img{
         max-width: 100%;
+        vertical-align: top;
+        /*display: none;*/
+      }
+      img#responsive{
+        display: none;
+      }
+      @media screen and (max-width:760px){
+        img#responsive{
+          display: block;
+        }
       }
     </style>
   </head>
   <body>
+    <img src="ImagenesGit/invie-responsive.png" alt="" id="responsive">
     <img src="ImagenesGit/header.jpg" alt="">
     <img src="ImagenesGit/hero.jpg" alt="">
     <img src="ImagenesGit/acustica.jpg" alt="">
